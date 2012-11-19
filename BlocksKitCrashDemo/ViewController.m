@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BlocksKit.h"
 
 @interface ViewController ()
 
@@ -17,13 +18,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)buttonTapped:(id)sender {
+    [UIAlertView showAlertViewWithTitle:@"Hi" message:@"world" cancelButtonTitle:@"OK" otherButtonTitles:nil handler:^(UIAlertView * view, NSInteger idx) {
+        
+    }];
 }
 
 @end

@@ -18,13 +18,14 @@
 		54424C98165A976700CC1107 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54424C97165A976700CC1107 /* Default-568h@2x.png */; };
 		54424C9B165A976700CC1107 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54424C9A165A976700CC1107 /* ViewController.m */; };
 		54424C9E165A976700CC1107 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54424C9C165A976700CC1107 /* ViewController.xib */; };
+		8717E270475B438BA05E27AC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED24DEE754C467894513C12 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54424C7D165A976700CC1107 /* BlocksKitCrashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocksKitCrashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54424C81165A976700CC1107 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		54424C83165A976700CC1107 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		54424C85165A976700CC1107 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54424C81165A976700CC1107 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54424C83165A976700CC1107 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54424C85165A976700CC1107 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		54424C89165A976700CC1107 /* BlocksKitCrashDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlocksKitCrashDemo-Info.plist"; sourceTree = "<group>"; };
 		54424C8B165A976700CC1107 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54424C8D165A976700CC1107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +38,8 @@
 		54424C99165A976700CC1107 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		54424C9A165A976700CC1107 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		54424C9D165A976700CC1107 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5C44DBB527514BDD97B36693 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		6ED24DEE754C467894513C12 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,7 @@
 				54424C82165A976700CC1107 /* UIKit.framework in Frameworks */,
 				54424C84165A976700CC1107 /* Foundation.framework in Frameworks */,
 				54424C86165A976700CC1107 /* CoreGraphics.framework in Frameworks */,
+				8717E270475B438BA05E27AC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +63,7 @@
 				54424C87165A976700CC1107 /* BlocksKitCrashDemo */,
 				54424C80165A976700CC1107 /* Frameworks */,
 				54424C7E165A976700CC1107 /* Products */,
+				5C44DBB527514BDD97B36693 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +81,7 @@
 				54424C81165A976700CC1107 /* UIKit.framework */,
 				54424C83165A976700CC1107 /* Foundation.framework */,
 				54424C85165A976700CC1107 /* CoreGraphics.framework */,
+				6ED24DEE754C467894513C12 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +123,7 @@
 				54424C79165A976700CC1107 /* Sources */,
 				54424C7A165A976700CC1107 /* Frameworks */,
 				54424C7B165A976700CC1107 /* Resources */,
+				5D0F0CE3F8C84618AF8E523F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,6 +173,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D0F0CE3F8C84618AF8E523F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		54424C79165A976700CC1107 /* Sources */ = {
@@ -250,10 +274,12 @@
 		};
 		54424CA2165A976700CC1107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C44DBB527514BDD97B36693 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlocksKitCrashDemo/BlocksKitCrashDemo-Prefix.pch";
 				INFOPLIST_FILE = "BlocksKitCrashDemo/BlocksKitCrashDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -261,10 +287,12 @@
 		};
 		54424CA3165A976700CC1107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C44DBB527514BDD97B36693 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlocksKitCrashDemo/BlocksKitCrashDemo-Prefix.pch";
 				INFOPLIST_FILE = "BlocksKitCrashDemo/BlocksKitCrashDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +317,7 @@
 				54424CA3165A976700CC1107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
