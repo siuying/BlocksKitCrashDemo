@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54339C351671CC8F00736953 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54339C341671CC8F00736953 /* GameKit.framework */; };
 		54424C82165A976700CC1107 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54424C81165A976700CC1107 /* UIKit.framework */; };
 		54424C84165A976700CC1107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54424C83165A976700CC1107 /* Foundation.framework */; };
 		54424C86165A976700CC1107 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54424C85165A976700CC1107 /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54339C341671CC8F00736953 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		54424C7D165A976700CC1107 /* BlocksKitCrashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocksKitCrashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54424C81165A976700CC1107 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54424C83165A976700CC1107 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54339C351671CC8F00736953 /* GameKit.framework in Frameworks */,
 				54424C82165A976700CC1107 /* UIKit.framework in Frameworks */,
 				54424C84165A976700CC1107 /* Foundation.framework in Frameworks */,
 				54424C86165A976700CC1107 /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +81,7 @@
 		54424C80165A976700CC1107 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54339C341671CC8F00736953 /* GameKit.framework */,
 				54424C81165A976700CC1107 /* UIKit.framework */,
 				54424C83165A976700CC1107 /* Foundation.framework */,
 				54424C85165A976700CC1107 /* CoreGraphics.framework */,

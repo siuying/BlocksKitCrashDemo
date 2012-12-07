@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "BlocksKit.h"
+#import <GameKit/GameKit.h>
 
 @interface ViewController ()
 
@@ -18,7 +19,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
+    GKLocalPlayer* localPlayer = [GKLocalPlayer localPlayer];
+    [localPlayer authenticateWithCompletionHandler:^(NSError *error) {
+        NSLog(@"auth completed");
+    }];
 }
 
 - (void)didReceiveMemoryWarning
